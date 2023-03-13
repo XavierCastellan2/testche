@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: localhost:5000/coder:latest
+      image: 192.168.49.2:5000/coder:latest
       volumeMounts:
         - name: venv
           path: /home/user/.venv
