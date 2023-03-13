@@ -7,7 +7,7 @@ components:
       image: localhost:5000/coder:latest
       volumeMounts:
         - name: venv
-          path: /home/user/.venv
+          path: /home/dev/.venv
       memoryLimit: 512Mi
       mountSources: true
 
@@ -15,12 +15,4 @@ components:
     volume:
       size: 1G
 
-commands:
-  - id: run-application
-    exec:
-      label: "Run application"
-      component: tools
-      workingDir: ${PROJECT_SOURCE}
-      commandLine: "python3 hello-world.py"
-      group:
-        kind: run
+
