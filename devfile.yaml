@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.ia.com:5000/coder:latest
+      image: localhost:5000/coder:latest
       volumeMounts:
         - name: venv
           path: /home/user/.venv
