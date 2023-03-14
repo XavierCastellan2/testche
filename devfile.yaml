@@ -7,7 +7,7 @@ components:
       image: localhost:5000/coder:latest
       volumeMounts:
         - name: venv
-          path: /home/dev/.venv
+          path: /home/user/.venv
       memoryLimit: 512Mi
       mountSources: true
 
