@@ -1,4 +1,4 @@
-#id: eclipse/che-theia/latest
+id: eclipse/che-theia/latest
 #id: che-incubator/che-pycharm/next
 #id: che-incubator/che-idea/next
-id: che-incubator/che-code/insiders
+#id: che-incubator/che-code/insiders
